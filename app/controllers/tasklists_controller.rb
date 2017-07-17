@@ -8,7 +8,7 @@ class TasklistsController < ApplicationController
   end
 
   def new
-    @message = Message.new
+    @task = Task.new
   end
 
   def create
